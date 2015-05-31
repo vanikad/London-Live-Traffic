@@ -1,0 +1,45 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.vanikad.hw.londonlivetraffic.MainActivity">
+
+    <item android:id="@+id/search"
+        android:title="@string/search_label"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+
+    <!--<item android:id="@+id/itemMapType"-->
+        <!--android:title="@string/mapOption"-->
+        <!--app:icon="@android:drawable/ic_menu_mapmode"-->
+        <!--app:showAsAction="never" />-->
+
+
+    <item
+        android:id="@+id/empty"
+        android:title="title"
+        android:icon="@drawable/ic_action_overflow"
+        android:orderInCategory="101"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/maptype"
+                android:icon="@drawable/map_color"
+                app:showAsAction="always|withText"
+                android:title="@string/mapOption"/>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/about_color"
+                app:showAsAction="always|withText"
+                android:title="@string/about"/>
+            <item
+                android:id="@+id/close"
+                android:icon="@drawable/close_color"
+                app:showAsAction="always|withText"
+                android:title="@string/close"/>
+
+        </menu>
+    </item>
+</menu>
+

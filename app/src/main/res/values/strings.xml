@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">London Live Traffic</string>
+
+    <string name="title_activity_main">London Live Live</string>
+
+
+    <!-- The label for use as a searchable item -->
+    <string name="search_label">Search</string>
+
+    <!-- The hint text that appears in the search box. -->
+    <string name="search_hint">Search camera</string>
+
+    <!-- The menu entry that invokes search. -->
+    <string name="menu_search">Search</string>
+
+    <!-- The menu entry that invokes map types dialog. -->
+    <string name="mapOption">Choose map type</string>
+
+    <!-- The menu entry that invokes about types dialog. -->
+    <string name="about">About</string>
+
+    <!-- The menu entry closes the app. -->
+    <string name="close">Close app</string>
+
+    <!-- The menu entry selects map type "Normal" -->
+    <string name="mapTypeNormal">Normal</string>
+
+    <!-- The menu entry selects map type "Hybrid" -->
+    <string name="mapTypeHybrid">Hybrid</string>
+
+    <!-- The menu entry selects map type "Satellite" -->
+    <string name="mapTypeSatellite">Satellite</string>
+
+    <!-- The menu entry selects map type "Terrain" -->
+    <string name="mapTypeTerrain">Terrain</string>
+
+    <!-- OK button -->
+    <string name="doneButton">Done</string>
+
+    <!-- about text -->
+    <string name="aboutText">Hi there! \nThis app lets you browse London\'s road traffic cameras and get live images from them.
+         The images are static but are refreshed every 2 minutes.
+    \nYou can open images by tapping on camera icon or by searching one in search box. You can add cameras to favourites
+        for quick access. Also there is an option to choose from few map type and to enable/disable network traffic layer on map.\nEnjoy it!
+    </string>
+    <string name="aboutTitle">About</string>
+
+    <string name="mapTypeTitle">Choose map type</string>
+
+    <!-- Close dialog button -->
+    <string name="closeDialog">Close</string>
+
+    <string name="favoritesDialogTitle">My favourites</string>
+    <string name="cameraListDialogTitle">All cameras</string>
+
+    <!--Google map key-->
+    <string name="googleMapKey">Your google map key</string>
+
+</resources>

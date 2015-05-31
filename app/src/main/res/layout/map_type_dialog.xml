@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mapTypeDialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/dialog_padding"
+    android:layout_centerInParent="true">
+
+
+    <TextView
+        android:id="@+id/mapTypeTitle"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/mapTypeTitle"
+        android:textSize="@dimen/text_title"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/mapTypeRadioGroup"
+            android:layout_below="@+id/mapTypeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/mapTypeNormal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mapTypeNormal" />
+
+            <RadioButton
+                android:id="@+id/mapTypeHybrid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mapTypeHybrid" />
+
+            <RadioButton
+                android:id="@+id/mapTypeSatellite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mapTypeSatellite" />
+
+            <RadioButton
+                android:id="@+id/mapTypeTerrain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mapTypeTerrain" />
+        </RadioGroup>
+
+    <ImageButton
+        android:id="@+id/mapTypeOkButton"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dialog_button_margin"
+        android:layout_below="@id/mapTypeRadioGroup"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/close_button"/>
+
+</RelativeLayout>
